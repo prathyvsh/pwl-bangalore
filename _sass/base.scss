@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #02599D;
+    text-decoration: none;
+}
+
+body {
+    background: white;
+    font-family: "Cardo", Baskerville, serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #02599D;
+}
+
+.site-header {
+    
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.site-header h1 {
+    display: flex;
+    flex-flow: column;
+    font-family: "Work Sans", Avenir, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+		
+}
+
+.site-header h1 span.bigger {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.site-header .wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 4rem 0;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.site-nav {
+    margin-left: auto;
+}
+
+.site-nav a:first-child {
+    margin-left: 0;
+}
+
+.site-nav a {
+    margin: 0 2rem;
+}
+
+
+#welcome-content {
+    background: white;
+    padding: 4rem 2rem;
+    color: #8499B3;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+#welcome-content p {
+    color: #8499B3;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+#call-to-action {
+    display: flex;
+    flex-flow: row;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#call-to-action a {
+
+    margin: 0 3rem;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px 0 rgba(7,15,24,0.15);
+    border-radius: 10px;
+    transition: 0.25s top transform;
+}
+
+a#join-community {
+    background: white;
+    color: #007FD5;
+}
+
+a#propose-talk {
+    background: #7AD417;
+}
+
+footer {
+    color: white;
+    padding: 4rem;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+footer h2 {
+    
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+footer a {
+    color: white;
+}
