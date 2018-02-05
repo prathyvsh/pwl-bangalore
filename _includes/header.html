@@ -5,7 +5,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <a href="/">
+    <a class="website-title" href="/">
       <h1>
         <span>Papers We Love</span>
         <span class="bigger">Bangalore</span>
@@ -15,7 +15,7 @@
     {% if page_paths %}
 
     <nav class="site-nav">
-      <div class="trigger">
+      <div class="links">
 	{% for path in page_paths %}
 	{% assign my_page = site.pages | where: "path", path | first %}
 	{% if my_page.title %}

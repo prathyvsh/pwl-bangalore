@@ -10,7 +10,7 @@ a {
 
 body {
     background: white;
-    font-family: "Cardo", Baskerville, serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     background: #02599D;
@@ -31,7 +31,12 @@ body {
     font-family: "Work Sans", Avenir, sans-serif;
     font-size: 1rem;
     font-weight: normal;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
 		
+}
+
+.website-title {
+    margin-right: 4rem;
 }
 
 .site-header h1 span.bigger {
@@ -41,12 +46,15 @@ body {
 }
 
 .site-header .wrapper {
-    width: 1080px;
-    margin: 0 auto;
     color: white;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 4rem 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 960px;
 }
 
 .site-header a {
@@ -56,6 +64,7 @@ body {
 }
 
 .site-nav {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
     margin-left: auto;
 }
 
@@ -63,8 +72,17 @@ body {
     margin-left: 0;
 }
 
-.site-nav a {
-    margin: 0 2rem;
+.links {
+    display: flex;
+    width: 100%;
+}
+
+.links a {
+    margin-right: 10vw;
+}
+
+.links a:last-child {
+    margin: 0;
 }
 
 
@@ -81,23 +99,27 @@ body {
 #welcome-content p {
     color: #8499B3;
     padding: 1rem 0;
-    font-size: 1.5rem;
-    max-width: 600px;
+    font-size: 1.25rem;
+    max-width: 960px;
 }
 
 #call-to-action {
+
     display: flex;
     flex-flow: row;
-    padding: 4rem 0;
+    padding: 4rem 2rem;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100vw;
+    box-sizing: border-box;
+
 }
 
 #call-to-action a {
 
-    margin: 0 3rem;
-    min-width: 300px;
+    width: 50%;
+    margin: 0 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,27 +127,30 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
     border-radius: 5px;
-    box-shadow: 0 8px 20px 0 rgba(7,15,24,0.15);
+    box-shadow: 0 8px 20px rgba(7,15,24,0.15);
     border-radius: 10px;
    transition: 0.25s all ease;
 
 }
 
-
-
 #call-to-action a:hover {
+
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+
 }
 
-
 a#join-community {
+
     background: white;
     color: #007FD5;
+
 }
 
 a#propose-talk {
+
     background: #7AD417;
+    
 }
 
 footer {
@@ -145,4 +170,42 @@ footer h2 {
 
 footer a {
     color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .site-header .wrapper {
+	display: flex;
+	flex-flow: column;
+    }
+
+    .website-title {
+	margin-bottom: 1rem;
+    }
+
+    .site-nav {
+	margin: 0;
+    }
+
+
+    .website-title {
+	margin-right: 0;
+    }
+
+.links a {
+    margin-right: 5vw;
+}
+
+    #call-to-action {
+	display: flex;
+	flex-flow: column;
+	padding: 1rem 0;
+    }
+
+    #call-to-action a {
+	margin: 0.5rem 0;
+    }
+
+    
 }
