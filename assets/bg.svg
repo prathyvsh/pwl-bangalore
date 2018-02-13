@@ -1,6 +1,6 @@
 <svg viewBox="-30 0 50 100" width="80" height="80" xmlns="http://www.w3.org/2000/svg" class="">
   <g transform="scale(0.5)">
-    <g stroke="white" stroke-width="4" fill="transparent" opacity="0.2" transform="rotate(10)">
+    <g stroke="white" stroke-width="4" fill="transparent" opacity="0.1" transform="rotate(10)">
       <rect x="30" y="40" rx="5" width="60" height="80"></rect>
       <g>
 	<rect x="38" y="55" fill="white" width="44" height="0.5"></rect>
@@ -9,7 +9,7 @@
 	<rect x="38" y="100" fill="white" width="44" height="0.5"></rect>
       </g>
     </g>
-    <g fill="white" opacity="0.2" transform="translate(-50,70) rotate(-10)">
+    <g fill="white" opacity="0.1" transform="translate(-50,70) rotate(-10)">
       <circle cx="-15" r="20"></circle>
       <circle cx="15" r="20"></circle>
       <rect x="-10" y="-10" width="40.5" height="40.5"

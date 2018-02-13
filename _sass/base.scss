@@ -20,6 +20,11 @@ body {
     background: #02599D;
 }
 
+.white {
+    background: white;
+    color: #02599D;
+}
+
 .narrow {
     width: 960px;
     max-width: 960px;
@@ -149,12 +154,13 @@ body {
 }
 
 a#join-community {
-    background: white;
-    color: #007FD5;
+    color: white;
+    background: #007FD5;
 }
 
 a#propose-talk {
     background: #7AD417;
+    color: white;
 }
 
 footer {

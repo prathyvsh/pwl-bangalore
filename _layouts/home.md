@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home blue">
+<div class="home white">
 
   <section id="welcome-content" class="narrow">
       <p>
