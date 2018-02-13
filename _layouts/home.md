@@ -16,8 +16,12 @@ layout: default
       </p>
 
       <div id="call-to-action">
-          <a id="join-community" href="#join-community">Join our Community</a>
-          <a id="propose-talk" href="#propose-talk">Propose a Talk</a>
+        <a id="join-community"
+           target="_blank"
+           href="https://www.meetup.com/Papers-we-love-Bangalore">
+         Join our Community
+        </a>
+        <a id="propose-talk" href="#propose-talk">Propose a Talk</a>
       </div>
 
   <section id="faq" class="narrow">
