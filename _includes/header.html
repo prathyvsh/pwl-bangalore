@@ -1,6 +1,6 @@
-<header class="site-header" role="banner">
+<header class="site-header blue" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper narrow">
 
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
@@ -27,11 +27,6 @@
     {% endif %}
 
 
-  </div>
-
-  <div id="call-to-action">
-    <a id="join-community" href="#join-community">Join our Community</a>
-    <a id="propose-talk" href="#propose-talk">Propose a Talk</a>
   </div>
 
 </header>

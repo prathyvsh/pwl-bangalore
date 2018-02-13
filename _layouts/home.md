@@ -2,23 +2,26 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home blue">
 
-  <section id="welcome-content">
-  <h1>Howdy! Fellow Learner</h1>
-  <p>What was the last paper within the realm of computing you read and loved? What did it inspire you to build or tinker with?</p>
+  <section id="welcome-content" class="narrow">
+      <p>
+          What was the last paper within the realm of computing you read and
+          loved? What did it inspire you to build or tinker with?
+      </p>
 
-<p>Come join our community to discuss and share ideas about that awesome research paper with fellow engineers, programmers, and paper-readering enthusiasts.</p>
+      <p>
+          Come join our community to discuss and share ideas about that awesome
+          research paper with fellow engineers, programmers and learners.
+      </p>
 
-<p>Lead a session and show off code that you wrote that implements these ideas or just give us the lowdown about the paper (because of HARD MATH!). Just come, listen, and discuss.</p>
+      <div id="call-to-action">
+          <a id="join-community" href="#join-community">Join our Community</a>
+          <a id="propose-talk" href="#propose-talk">Propose a Talk</a>
+      </div>
 
-<p>If you need to reach out to us or have ideas for papers, just ask
-  us via our <a href="http://twitter.com/papersweloveblr">twitter account</a>.</p>
+  <section id="faq" class="narrow">
+    {{ content }}
   </section>
 
-<div id="faq">
-{{ content }}
 </div>
-
-</div>
-
