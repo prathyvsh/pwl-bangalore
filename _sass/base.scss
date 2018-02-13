@@ -13,16 +13,14 @@ body {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    background: #02599D;
 }
 
 .site-header {
-    
     width: 100vw;
     display: flex;
     flex-flow: column;
     align-items: center;
-    
+    background: #02599D;
 }
 
 .site-header h1 {
@@ -32,7 +30,6 @@ body {
     font-size: 1rem;
     font-weight: normal;
     text-shadow: 0 2px 4px rgba(0,0,0,0.25);
-		
 }
 
 .website-title {
@@ -42,7 +39,6 @@ body {
 .site-header h1 span.bigger {
     font-size: 3rem;
     font-weight: bold;
-    
 }
 
 .site-header .wrapper {
@@ -85,15 +81,12 @@ body {
     margin: 0;
 }
 
-
 #welcome-content {
-    background: white;
     padding: 4rem 2rem;
     color: #8499B3;
     display: flex;
     flex-flow: column;
     align-items: center;
-    
 }
 
 #welcome-content p {
@@ -104,7 +97,6 @@ body {
 }
 
 #call-to-action {
-
     display: flex;
     flex-flow: row;
     padding: 4rem 2rem;
@@ -113,11 +105,9 @@ body {
     max-width: 960px;
     width: 100vw;
     box-sizing: border-box;
-
 }
 
 #call-to-action a {
-
     width: 50%;
     margin: 0 0.5rem;
     display: flex;
@@ -129,28 +119,21 @@ body {
     border-radius: 5px;
     box-shadow: 0 8px 20px rgba(7,15,24,0.15);
     border-radius: 10px;
-   transition: 0.25s all ease;
-
+    transition: 0.25s all ease;
 }
 
 #call-to-action a:hover {
-
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-
 }
 
 a#join-community {
-
     background: white;
     color: #007FD5;
-
 }
 
 a#propose-talk {
-
     background: #7AD417;
-    
 }
 
 footer {
@@ -163,7 +146,6 @@ footer {
 }
 
 footer h2 {
-    
     font-weight: normal;
     font-size: 1rem;
 }
@@ -175,37 +157,34 @@ footer a {
 
 @media screen and (max-width: 600px) {
 
-    .site-header .wrapper {
+  .site-header .wrapper {
 	display: flex;
 	flex-flow: column;
-    }
+  }
 
-    .website-title {
+  .website-title {
 	margin-bottom: 1rem;
-    }
+  }
 
-    .site-nav {
+  .site-nav {
 	margin: 0;
-    }
+  }
 
-
-    .website-title {
+  .website-title {
 	margin-right: 0;
-    }
+  }
 
-.links a {
+  .links a {
     margin-right: 5vw;
-}
+  }
 
-    #call-to-action {
+  #call-to-action {
 	display: flex;
 	flex-flow: column;
 	padding: 1rem 0;
-    }
+  }
 
-    #call-to-action a {
+  #call-to-action a {
 	margin: 0.5rem 0;
-    }
-
-    
+  }
 }
