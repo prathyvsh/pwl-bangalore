@@ -69,25 +69,16 @@ body {
 }
 
 .site-nav {
-    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    margin-left: auto;
-}
-
-.site-nav a:first-child {
-    margin-left: 0;
-}
-
-.links {
     display: flex;
-    width: 100%;
-}
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
 
-.links a {
-    margin-right: 10vw;
-}
+    a {
+        margin-right: 10vw;
+    }
 
-.links a:last-child {
-    margin: 0;
+    a:last-child {
+        margin: 0;
+    }
 }
 
 .home {
