@@ -15,12 +15,21 @@ body {
     font-weight: 400;
 }
 
+.blue {
+    color: white;
+    background: #02599D;
+}
+
+.narrow {
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .site-header {
-    width: 100vw;
     display: flex;
     flex-flow: column;
     align-items: center;
-    background: #02599D;
 }
 
 .site-header h1 {
@@ -42,15 +51,12 @@ body {
 }
 
 .site-header .wrapper {
-    color: white;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
     box-sizing: border-box;
-    width: 100vw;
-    max-width: 960px;
 }
 
 .site-header a {
@@ -82,11 +88,7 @@ body {
 }
 
 .home {
-    
-    color: #02599D;
     padding: 4rem 2rem;
-    max-width: 960px;
-    margin: 0 auto;
     line-height: 1.5rem;
 }
 
@@ -104,7 +106,6 @@ body {
 }
 
 #welcome-content {
-    margin: 2rem 0;
 }
 
 #welcome-content p {
@@ -194,7 +195,7 @@ footer a {
 
 #talk-listing li {
     padding: 1rem 0;
-    
+
 }
 
 
