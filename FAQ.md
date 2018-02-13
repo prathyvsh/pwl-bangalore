@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## 1. I've never read an academic paper before. Can I come?
+## 1. I've _never_ read an academic paper before. Can I come?
 
 Absolutely! One of the organizers started reading papers by starting Papers we
 love. We will help you get started.
@@ -9,11 +9,12 @@ love. We will help you get started.
 
 We strongly urge you to go through the paper once before the meetup. It usually
 leads to a better understanding of the subject and even livelier discussions.
-Every speaker is happy to see attendes with soiled paper printout filled with
+Every speaker is happy to see attendees with soiled paper printout filled with
 notes and drawings.
 
-If you haven't been able to read it, we still strongly encourage you to attend
-the meetup. You will still learn a lot.
+If you haven't been able to find time to read it, we still strongly encourage you to attend
+the meetup as these talks are meant to provide an accessible introduction to the subject matter.
+Even if you have just skimmed the paper, you will still learn a lot.
 
 ## 3. How do I start reading papers?
 
@@ -26,10 +27,10 @@ hold on.
 1. Read the abstract carefully.
 1. Skim through the introduction.
 1. Read the conclusions.
-1. See the references if there is a concept you aren't familiar and you need
+1. See the references if there is a concept you aren't familiar with and you need
    additional reading materials.
-1. Try to read the paper in multiple passes such that you don't spend too long
-   on something you don't immediately understand. Sometimes the concept might
+1. Try to read the paper in multiple passes so that you don't spend too long
+   on something you don't immediately understand. Sometimes the concept vaguely introduced in the beginning might
    get explained in detail further ahead.
 1. Take a lot of notes. Underline what you think is important. This makes
    subsequent reading much simpler.
