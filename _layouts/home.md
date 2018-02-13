@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  {{ content }}
-
   <section id="welcome-content">
   <h1>Howdy! Fellow Learner</h1>
   <p>What was the last paper within the realm of computing you read and loved? What did it inspire you to build or tinker with?</p>
@@ -18,4 +16,9 @@ layout: default
   us via our <a href="http://twitter.com/papersweloveblr">twitter account</a>.</p>
   </section>
 
+<div id="faq">
+{{ content }}
 </div>
+
+</div>
+

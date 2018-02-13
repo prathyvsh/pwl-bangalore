@@ -81,16 +81,33 @@ body {
     margin: 0;
 }
 
-#welcome-content {
+.home {
+    
+    color: #02599D;
     padding: 4rem 2rem;
-    color: #8499B3;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+#faq a {
+    color: hsl(190deg, 80%, 50%);
+    text-decoration: underline;
+}
+
+#faq h2 {
+    margin-bottom: 2rem;
+}
+
+#faq h3 {
+    margin: 1rem 0;
+}
+
+#welcome-content {
+    margin: 2rem 0;
 }
 
 #welcome-content p {
-    color: #8499B3;
     padding: 1rem 0;
     font-size: 1.25rem;
     max-width: 960px;
