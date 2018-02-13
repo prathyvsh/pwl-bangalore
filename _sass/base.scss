@@ -149,6 +149,32 @@ a#join-community {
     background: #007FD5;
 }
 
+#epigram {
+    padding: 1rem 0;
+}
+
+#epigram .quote {
+
+    font-size: 2rem;
+    padding: 2rem;
+    color: #02599D;
+
+}
+
+#epigram .quote:before {
+    content: "“";
+}
+
+#epigram .quote:after {
+    content: "”";
+}
+
+#epigram .author {
+    font-size: 1.75rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
 a#propose-talk {
     background: #7AD417;
     color: white;
