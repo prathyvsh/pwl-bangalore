@@ -1,11 +1,11 @@
-# Frequently Asked Questions
+## Frequently Asked Questions
 
-## 1. I've _never_ read an academic paper before. Can I come?
+### 1. I've _never_ read an academic paper before. Can I come?
 
 Absolutely! One of the organizers started reading papers by starting Papers we
 love. We will help you get started.
 
-## 2. I haven't read the paper yet. Should I come?
+### 2. I haven't read the paper yet. Should I come?
 
 We strongly urge you to go through the paper once before the meetup. It usually
 leads to a better understanding of the subject and even livelier discussions.
@@ -16,7 +16,7 @@ If you haven't been able to find time to read it, we still strongly encourage yo
 the meetup as these talks are meant to provide an accessible introduction to the subject matter.
 Even if you have just skimmed the paper, you will still learn a lot.
 
-## 3. How do I start reading papers?
+### 3. How do I start reading papers?
 
 There is a [lot of information][read 1] out there on [How to read a research
 paper][read 2] but this one by [Science Magazine][science] is particularly

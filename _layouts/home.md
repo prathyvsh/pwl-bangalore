@@ -25,7 +25,12 @@ layout: default
       </div>
 
   <section id="faq" class="narrow">
-    {{ content }}
-  </section>
 
+    <!-- Cannot include markdown the obvious way.  -->
+    <!-- https://github.com/jekyll/jekyll/issues/1303 -->
+
+    {% capture my_include %}{% include FAQ.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+
+  </section>
 </div>
