@@ -9,8 +9,12 @@ permalink: /talks/
 
   <li>
     <h2>
-      {{ meetup.name }}
-      <a href="{{meetup.link}}"> 🌐 </a>
+      <a href="#{{meetup.name | slugify }}"
+         name="{{meetup.name | slugify }}">  
+         {{ meetup.name }}
+         ¶ 
+      </a>
+      <a href="{{meetup.link}}">⤤</a>
     </h2>
 
     <div class="description">
