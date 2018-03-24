@@ -23,7 +23,7 @@ twitter: http://twitter.com/papersweloveblr
 twitter_username: papersweloveblr
 github: https://github.com/papers-we-love/papers-we-love
 github_username:  papers-we-love
-source: https://github.com/prathyvsh/pwl-blr
+gh_source: https://github.com/prathyvsh/pwl-blr
 
 # Build settings
 markdown: kramdown
