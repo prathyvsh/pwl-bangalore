@@ -21,7 +21,12 @@ layout: default
            href="https://www.meetup.com/Papers-we-love-Bangalore">
          Join our Community
         </a>
-        <a id="propose-talk" href="#propose-talk">Propose a Talk</a>
+
+        <a id="propose-talk"
+           target="_blank"
+           href="{{site.form}}">
+          Propose a Talk
+        </a>
       </div>
 
   <section id="faq" class="narrow">

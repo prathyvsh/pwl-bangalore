@@ -46,11 +46,11 @@ computing][quantum] and fancy consensus algorithms like [Raft][raft].
 
 ### 5. I've been reading a few papers recently and I'd like to present at the meetup.
 
-Great! Get in [touch with us](twitter) or fill up the [talk form][form] and
-let's start talking.
+Great! Get in [touch with us](twitter) or fill up the [talk form]({{site.form}})
+and let's start talking.
 
 [dhanush]: https://twitter.com/indradhanush92
-[form]:    https://goo.gl/forms/i1TZLpmpQtdhU8br1
+
 [note]:    /talks/#a-note-on-distributed-computing-with-indradhanush-gupta
 [quantum]: /talks/#shor-s-algorithm-part-1
 [raft]:    /talks/#raft-paxos-and-other-consensus-algorithms
